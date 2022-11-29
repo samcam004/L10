@@ -33,7 +33,8 @@ testDuplicates();
         Sortedarr[3] = 9;
         Sortedarr[4] = 10;
 
-        /** add tests to check for this unit test **/
+        sort.basicSelectionSort(arr);
+        assert(Arrays.equals(arr,Sortedarr));
     }
 
     public void testNegative(){
