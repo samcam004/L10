@@ -2,15 +2,15 @@
 import static org.junit.Assert.*;
 import org.junit.Assert;
 import org.junit.Test;
-import java.util.Arrays:
+import java.util.Arrays;
 
 public class testSelectionSort {
 @Test
 public void test() {
 testPositive();
-testNegative();
-testMixed();
-testDuplicates();
+//testNegative();
+//testMixed();
+//testDuplicates();
 }
 
     SelectionSort sort = new SelectionSort();
